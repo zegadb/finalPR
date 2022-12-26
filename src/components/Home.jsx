@@ -25,6 +25,11 @@ const Home = () => {
                                     <div className="itemContent flexSB">
                                         <div className="left">
                                             <h1>{name}</h1>
+                                            <p>{desc}</p>
+                                            <img src={signature} alt='' />
+                                        </div>
+                                        <div className="right">
+                                            <img src={cover} alt='' />
                                         </div>
                                     </div>
                                 </>
