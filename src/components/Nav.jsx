@@ -14,7 +14,7 @@ const Nav = () => {
           </div>
           <nav>
             <button className="toggle" onClick={() => setSidebar(!sidebar)}>
-              {sidebar ? <i className='fas fa-bars' /> : <i className='fas fa-times' />}
+              {sidebar ? <i className='fas fa-times' /> : <i className='fas fa-bars' />}
             </button>
             <ul className={sidebar ? 'nav-links-sidebar' : 'nav-links'} onClick={() => setSidebar(false)}>
               <li><a href="/">Home</a></li>
