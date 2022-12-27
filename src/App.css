@@ -112,10 +112,10 @@ header ul li a {
     position: relative;
 }
 .itemContent {
-    margin: 40px 0;
     border: 20px solid #2f2f2f;
     height: 90vh;
     position: relative; 
+    margin: 40px 0;
     display: flex;
 }
 .flex {
@@ -148,9 +148,6 @@ header ul li a {
     padding: 0 50px;
     position: relative;
 }
-.about .contentLeft {
-    padding-top: 15%;
-}
 .about h2 {
     font-weight: 400;
     font-size: 20px;
@@ -174,6 +171,9 @@ button {
     background-color: #1ebd65;
     color: #fff;
     margin-top: 30px;
+}
+.about .contentLeft {
+    padding-top: 15%;
 }
 .about .contentLeft::after {
     content: "";
@@ -216,7 +216,7 @@ p {
 .creative .sideHeading h1 {
     left: -50px;
 }
-.creative .contentRight {
+.contentRight {
     padding: 0;
 }
 .creative img {
@@ -255,7 +255,6 @@ p {
 }
 .educations .contentLeft {
     padding: 80px 50px;
-
 }
 /*--------------------educations--------------------*/
 /*--------------------work--------------------*/
@@ -263,7 +262,7 @@ p {
     width: 250px;
     margin: 0;
     height: 30px;
-    padding: 0;
+    padding: 0 0;
 }
 .work .educations h2 {
     margin-left: 20px;
@@ -275,3 +274,28 @@ p {
     font-weight: 400;
 }
 /*--------------------work--------------------*/
+/*--------------------portfolio--------------------*/
+.portfolio {
+    position: relative;
+}
+.portfolio h1 {
+    font-size: 50px;
+    margin: 40px 0;
+}
+.portfolio p {
+    margin-bottom: 30px;
+}
+ul {
+    list-style: none;
+}
+.portfolio ul li {
+    margin: 15px 0;
+}
+.portfolio ul i {
+    color: #1ebd65;
+    margin-right: 20px;
+}
+.portfolio .sideHeading h1 {
+    left: -70px;
+}
+/*--------------------portfolio--------------------*/
