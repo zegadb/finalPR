@@ -4,6 +4,7 @@ import Creative from "./components/Creative"
 import Educations from "./components/Educations"
 import Home from "./components/Home"
 import Nav from "./components/Nav"
+import Work from "./components/Work"
 
 function App () {
     return (
@@ -13,6 +14,7 @@ function App () {
             <About />
             <Creative />
             <Educations />
+            <Work />
         </>
     )
 }

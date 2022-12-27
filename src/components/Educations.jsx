@@ -24,6 +24,7 @@ const Educations = () => {
                                                 {val.name} <br />
                                                 <span>{val.program}</span>
                                                 <br />
+                                                <span>{val.year}</span>
                                             </h2>
                                         </div>        
                                         </>

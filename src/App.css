@@ -240,3 +240,33 @@ p {
     color: #1ebd65;
 }
 /*--------------------creative--------------------*/
+/*--------------------educations--------------------*/
+.educations .box {
+    margin-top: 20px;
+}
+.educations .content h1 {
+    font-size: 40px;
+    color: #1ebd65;
+    margin-right: 30px;
+}
+.educations .content h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.educations .contentLeft {
+    padding: 80px 50px;
+
+}
+/*--------------------educations--------------------*/
+/*--------------------work--------------------*/
+.work button {
+    width: 250px;
+    margin: 0;
+    height: 30px;
+    padding: 0;
+}
+.work .educations h2 {
+    margin-left: 20px;
+    
+}
+/*--------------------work--------------------*/
