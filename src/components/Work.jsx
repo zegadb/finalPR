@@ -10,6 +10,7 @@ const Work = () => {
                     <div className="itemContent">
                         <Common title='employee' />
                         <div className="content flex">
+                            <div className="contentLeft">
                         {work.map(val => {
                                     return (
                                         <>
@@ -21,6 +22,7 @@ const Work = () => {
                                         </>
                                     )
                                 })}
+                            </div>
                         </div>
                         <div className="contentRight">
                             <img src="./images/employment-bg.jpg" alt="" />

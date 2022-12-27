@@ -267,6 +267,11 @@ p {
 }
 .work .educations h2 {
     margin-left: 20px;
-    
+    font-weight: 600;
+    font-size: 20px;
+}
+.work h2 p {
+    font-size: 15px;
+    font-weight: 400;
 }
 /*--------------------work--------------------*/

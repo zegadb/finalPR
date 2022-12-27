@@ -4,6 +4,7 @@ import Creative from "./components/Creative"
 import Educations from "./components/Educations"
 import Home from "./components/Home"
 import Nav from "./components/Nav"
+import Portfolio from "./components/Portfolio"
 import Work from "./components/Work"
 
 function App () {
@@ -15,6 +16,7 @@ function App () {
             <Creative />
             <Educations />
             <Work />
+            <Portfolio />
         </>
     )
 }
