@@ -1,28 +1,32 @@
 import "./App.css"
-import About from "./components/About"
-import Award from "./components/Award"
-import Blog from "./components/Blog"
-import Contact from "./components/Contact"
-import Creative from "./components/Creative"
-import Educations from "./components/Educations"
-import Home from "./components/Home"
-import Nav from "./components/Nav"
-import Portfolio from "./components/Portfolio"
-import Work from "./components/Work"
+import About from "./firstpage/About"
+import Award from "./firstpage/Award"
+import Blog from "./firstpage/Blog"
+import Contact from "./firstpage/Contact"
+import Creative from "./firstpage/Creative"
+import Educations from "./firstpage/Educations"
+import Home from "./firstpage/Home"
+import Nav from "./firstpage/Nav"
+import Portfolio from "./firstpage/Portfolio"
+import Work from "./firstpage/Work"
+import { Provider } from "react"
+import { Route } from "react-router-dom"
 
 function App () {
     return (
         <>
-            <Nav />
-            <Home />
-            <About />
-            <Creative />
-            <Educations />
-            <Work />
-            <Portfolio />
-            <Award />
-            <Blog />
-            <Contact />
+            {/* <Route path="/first"> */}
+                <Nav />
+                <Home />
+                <About />
+                <Creative />
+                <Educations />
+                <Work />
+                <Portfolio />
+                <Award />
+                <Blog />
+                <Contact />
+            {/* </Route> */}
         </>
     )
 }
