@@ -113,16 +113,17 @@ header ul li a {
 }
 .itemContent {
     border: 20px solid #2f2f2f;
-    height: 90vh;
+    height: fit-content;
     position: relative; 
     margin: 40px 0;
     display: flex;
+
 }
 .flex {
     display: flex;
 }
 .sideHeading {
-    height: 85vh;
+    height: 100%;
     background-color: #222222;
     width: 150px;
     display: flex;
@@ -316,7 +317,59 @@ ul {
     height: auto;
     object-fit: contain;
 }
+.award .contentRight img {
+    object-fit: cover;
+}
 .award .sideHeading h1 {
     left: -30px;
 }
 /*--------------------award--------------------*/
+/*----------blog----------*/
+.blog {
+    position: relative;
+  }
+  .blog .sideHeading h1 {
+    left: 0px;
+  }
+  .blog img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .blog .box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    width: 80%;
+    margin: auto;
+  }
+  /*----------blog----------*/
+ /*----------contact----------*/
+.contact .content i {
+    width: 40px;
+    font-size: 20px;
+    color: #1ebd65;
+}
+.contact .contentLeft {
+    padding: 50px;
+}
+form {
+    margin-top: 30px;
+}
+form textarea,
+form input {
+    width: 100%;
+    padding: 15px;
+    background: none;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    background: #2b2b2b;
+    color: #6a6a6a;
+}
+form textarea {
+    margin: 0;
+}
+/*----------contact----------*/
+  

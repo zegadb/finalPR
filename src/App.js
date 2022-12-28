@@ -1,6 +1,8 @@
 import "./App.css"
 import About from "./components/About"
 import Award from "./components/Award"
+import Blog from "./components/Blog"
+import Contact from "./components/Contact"
 import Creative from "./components/Creative"
 import Educations from "./components/Educations"
 import Home from "./components/Home"
@@ -19,6 +21,8 @@ function App () {
             <Work />
             <Portfolio />
             <Award />
+            <Blog />
+            <Contact />
         </>
     )
 }
